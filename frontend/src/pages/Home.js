@@ -18,7 +18,7 @@ const Home = () => {
     }
 
     fetchTodos()
-  }, [])
+  }, [dispatch])
 
   return (
     <div className='home'>
